@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbo="http://dbpedia.org/ontology/"
+	xmlns:dbp="http://dbpedia.org/property/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:ns9="http://dbpedia.org/ontology/PopulatedPlace/"
+	xmlns:georss="http://www.georss.org/georss/"
+	xmlns:ns10="http://purl.org/linguistics/gold/" >
+	
+	<rdf:Description rdf:about="http://dbpedia.org/resource/Bandung">
+		<rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
+        <rdfs:label xml:lang="en">Bandung</rdfs:label>
+		<foaf:name xml:lang="en">Bandung City</foaf:name>
+		<dbo:abstract xml:lang="en">Bandung (/ˈbɑːndʊŋ/) (formerly Dutch: Bandoeng, Sundanese: ᮘᮔ᮪ᮓᮥᮀ, Indonesian: Kota Bandung), is the capital of West Java province in Indonesia and Indonesia's fourth largest city after Jakarta, Surabaya and Medan, make it the third largest city by population, with over 2.4 million, and Greater Bandung made up of 2 municipalities and 38 districts, making it the nation's 2nd largest metropolitan area with 6,965,655 inhabitants at the 2010 census. Located 768 metres (2,520 ft) above sea level, approximately 140 kilometres (87 miles) south east of Jakarta, Bandung has cooler temperatures year-round than most other Indonesian cities. The city lies on a river basin surrounded by volcanic mountains. This topography provides a natural defense system, which was the primary reason for the Dutch East Indies government's plan to move the colony capital from Batavia (modern-day Jakarta) to Bandung. The Dutch colonials first established tea plantations around the mountains in the eighteenth century, and a road was constructed to connect the plantation area to the colonial capital Batavia (180 kilometres (112 miles) to the northwest). The Dutch inhabitants of Bandung demanded establishment of a municipality (gemeente), which was granted in 1906, and Bandung gradually developed into a resort city for plantation owners. Luxurious hotels, restaurants, cafes and European boutiques were opened, hence the city was nicknamed Parijs van Java (Dutch: "The Paris of Java"). After Indonesia declared independence in 1945, the city experienced rapid development and urbanization, transforming Bandung from an idyllic town into a dense 16,500 people/km2 (per square kilometer) metropolitan area, a living space for over 2.5 million people. Natural resources have been heavily exploited, particularly by conversion of protected upland area into highland villas and real estate and, although the city has encountered many problems (ranging from waste disposal and floods to a complicated traffic system and lack of road infrastructure), Bandung still attracts large numbers of tourists, weekend sightseers and migrants from other parts of Indonesia.</dbo:abstract>
+		<dbo:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-09-25</dbo:foundingDate>
+		<foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Montage_of_Bandung.jpg"/>
+		<owl:sameAs rdf:resource="http://sws.geonames.org/6559695/"/>
+		<owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q10389"/>
+		<owl:sameAs rdf:resource="http://linkedgeodata.org/triplify/node264158895"/>
+		<owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q10389"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://dbpedia.org/resource/Bandung_Zoo">
+		<dbp:location rdf:resource="http://dbpedia.org/resource/Bandung"/>
+		<rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+		<rdfs:label xml:lang="en">Bandung Zoo</rdfs:label>
+		<dbo:abstract xml:lang="en">Kebun Binatang Bandung is a 14-hectare (35-acre) zoo located in the city of Bandung in West Java, Indonesia. It was created in 1933 when two existing zoos in the city (Cimindi zoo and Dago Atas zoo) were combined and moved to the current location on Taman Sari street. The new zoo was located in "Jubileum Park", a botanical garden created in 1923 to celebrate the silver Jubilee of Queen Wilhelmina of the Netherlands.</dbo:abstract>
+		<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Bandung_Zoo"/>
+		<dbp:location rdf:resource="http://dbpedia.org/resource/Indonesia"/>
+		<dbp:location rdf:resource="http://dbpedia.org/resource/Bandung"/>
+		<dbp:location rdf:resource="http://dbpedia.org/resource/West_Java"/>
+		<ns10:hypernym rdf:resource="http://dbpedia.org/resource/Zoo"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://dbpedia.org/resource/Cipularang_Toll_Road">
+		<dbo:city rdf:resource="http://dbpedia.org/resource/Bandung"/>
+		<rdf:type rdf:resource="http://dbpedia.org/ontology/Road"/>
+		<rdfs:label xml:lang="en">Padaleunyi Toll Road</rdfs:label>
+		<dbo:abstract xml:lang="en">Padaleunyi (Padalarang-Cileunyi) Toll Road served for Bandung. On 2005, the toll road connected to Jakarta via Cipularang Toll Road. The toll road is operated by PT Jasa Marga Tbk.The toll road is crossing the South Bandung.</dbo:abstract>
+		<dbp:maint rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">PT Jasa Marga Tbk</dbp:maint>
+		<dbp:country rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">IDN</dbp:country>
+		<dbp:history rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">As a part of Cipularang Toll road. Also connects Padalarang-Bandung-Cileunyi</dbp:history>
+		<dbp:lengthRound rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</dbp:lengthRound>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://dbpedia.org/resource/2009_West_Java_earthquake">
+		<dbo:city rdf:resource="http://dbpedia.org/resource/Bandung"/>
+		<rdf:type rdf:resource="http://schema.org/Event"/>
+		<rdf:type rdf:resource="http://dbpedia.org/ontology/Earthquake"/>
+		<rdfs:label xml:lang="en">2009 West Java earthquake</rdfs:label>
+		<dbo:abstract xml:lang="en">The 2009 West Java earthquake occurred on September 2 at 14:55 local time in West Java, Indonesia. The magnitude 7.0 earthquake killed at least 79 people, injured over 1,250, and displaced over 210,000 (including more than 140,000 in Tasikmalaya regency). The quake was felt in the capital Jakarta, although damage there was minimal, and it was Indonesia's deadliest earthquake since the 2006 Pangandaran earthquake and tsunami.</dbo:abstract>
+		<foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/2009-September-Java-quake-shake-map-USGS.jpg"/>
+		
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://dbpedia.org/resource/Universitas_Padjadjaran">
+		<dbo:campus rdf:resource="http://dbpedia.org/resource/Bandung"/>
+		<rdf:type rdf:resource="http://dbpedia.org/ontology/University"/>
+		<rdfs:label xml:lang="en">Padjadjaran University</rdfs:label>
+		<foaf:name xml:lang="en">Padjadjaran University</foaf:name>
+		<dbo:abstract xml:lang="en">Universitas Padjadjaran (Padjadjaran University or UNPAD) is an institution of higher learning located in Bandung, which is the provincial capital of West Java, Indonesia. UNPAD was established on 11 September 1957, and officially opened by the President of Republic Indonesia Soekarno on the 24th of September 1957.</dbo:abstract>
+		<dbo:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1957-09-11</dbo:foundingDate>
+		<dbp:address rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Jalan Dipati Ukur No. 35, Bandung 40132</dbp:address>
+		<dbp:type rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">State university</dbp:type>
+	</rdf:Description>
+</rdf:RDF>
